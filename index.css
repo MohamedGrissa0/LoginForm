@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'El Messiri', sans-serif;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.all {
+    
+   
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 10px 5px 10px 5px;
+}
+    
+
+
+input{
+}
+
+input:focus {
+    border: 2px solid #77ccf0;
+}
+
+.input {
+    display: flex;
+    margin: 20px 0px;
+    flex-direction: column;
+}
+input
+{
+    border-radius:10px ;
+    text-align: center;
+
+}
+button
+{
+    display: block;
+    border-radius:10px ;
+    text-align: center;
+    align-self: center;
+
+}
+h5 
+{
+    color:rgb(138, 138, 138)
+}
+.icon
+{
+    
+    background-color: white;
+}
+
+
+
+
+
+  
