@@ -22,7 +22,7 @@
     </div>
     <div  class=" shadow-lg lg:h-max md:h-max  sm:h-full  py-5 lg:w-full  p-3   container flex flex-column justify-center align-center   " >
       <h4 class="h1"> Login </h4>
-      <form>
+      <div>
         <div class="flex my-[20px] flex-col ">
           <label for="">Email address</label>
           <input class="text-center rounded-3xl p-1 bg-gray-100 focus:outline-0 focus:border-blue-500 " type="email" autocomplete="false"  required  placeholder="Email">
@@ -35,12 +35,13 @@
 
         </div>
         <input class="  rounded-2xl" type="checkbox"> Remember me
-        <div class="flex justify-center">        <button class="block rounded-xl text-center self-center mt-2 mb-1 p-2 mb-2 w-1/2" style="background-color:#77ccf0 ;">Login</button>
+        <div class="flex justify-center">        <button class="my-2 py-1 px-[60px] rounded-xl " style="background-color:#77ccf0 ;">Login</button>
         </div>
         <h6 >or Login With</h6>
-        <button class="block rounded-xl text-center self-center text-center w-full  border border-grey mt-2 mb-3 p-2 flex  justify-center align-center " style="background-color:#FFF ;"><i  class="fa-brands fa-google "></i></button>
-        <button class=" block rounded-xl text-center self-center text-center w-full border border-grey mt-2 mb-2 p-2  flex  justify-center align-center w-1/2 " style="background-color:#FFF ;"><i class="fa-brands fa-facebook"></i></button>
-
+        <div class="flex flex-col">
+        <div class=" justify-center">        <button class="my-2 py-1 px-[71px] rounded-xl " style="background-color:#77ccf0 ;"><i class="fa-brands fa-facebook"></i></button>
+          <div class=" justify-center">        <button class="my-2 py-1 px-[71px] rounded-xl " style="background-color:#77ccf0 ;"><i class="fa-brands fa-google"></i></button>
+</div>
 
       </form>
   </div>
